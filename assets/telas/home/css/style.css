@@ -1,0 +1,28 @@
+.swiper-wrapper{
+    height: auto!important;
+}
+@media (max-width: 768px) {
+    .swiper-wrapper{
+        height: auto!important;
+    }
+}
+
+
+.btnSlide{
+    position: absolute;
+    z-index: 1;
+    margin: 30% 70%;
+    width: 20%;
+    height: 10%;
+}
+@media (max-width: 768px) {
+    .btnSlide{
+        position: absolute;
+        z-index: 1;
+        margin: 30% 70%;
+        width: auto;
+        height: auto;
+        font-size: 0.6rem!important;
+    }
+}
+
